@@ -6,7 +6,7 @@ import barbellcalc as b
 
 def mainLoop():
     n = len(sys.argv)
-    errorSyntax = "Please enter your targetted weight, followed by the barbell weight, if it is a standard barbell you do not need to include the weight.\nex: main.py 255 65\nex2: main.py 365"
+    errorSyntax = "Please enter your targeted weight, followed by the barbell weight, if it is a standard barbell you do not need to include the weight.\nex: main.py 255 65\nex2: main.py 365"
 
     if(n == 3):
         try:
